@@ -1,0 +1,16 @@
+Who's the best guy around here? This guy did something, and then something else :
+{
+~Jobs
+=Denis
+~Putin
+~Trump
+}
+
+Question 2:
+{
+~w2
+=A2
+~w3
+~w4
+}
+
