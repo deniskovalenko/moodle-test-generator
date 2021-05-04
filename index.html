@@ -12,7 +12,15 @@ textarea {
 </style>
 </head>
 <body>
-<h1>Привет Гоша!</h1>
+<h1>Generate TXT for Moodle Tests</h1>
+
+<p>
+<ul>
+<li>Add list of tests. First row is ignored (header row). First column should include question, 2nd correct answer, the rest of columns go for incorrect answers</li>
+<li>In google sheets, download file as TSV. File->Download->Tab separated values</li>
+<li>Upload file here, and download generated TXT file</li>
+</ul>
+</p>
 <div>
  <label for="input-file">Specify a file:</label><br>
  <input type="file" id="input-file">
@@ -24,14 +32,8 @@ textarea {
 <br/>
 <button onclick="downloadContent()">Download!</button>
  
-<br/>
-<br/>
-<input id="a" onchange="addTwoNumbers()"/>+
-<input id="b" onchange="addTwoNumbers()"/>=<input id="c"/>
-
 </body>
 <script>
-//alert("Привет Гоша!!!");
 document.getElementById('input-file')
   .addEventListener('change', getFile);
 
