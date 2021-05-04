@@ -1,16 +1,32 @@
 Who's the best guy around here? This guy did something, and then something else :
 {
-~Jobs
 =Denis
 ~Putin
+~Jobs
 ~Trump
 }
 
 Question 2:
 {
 ~w2
+~w4
 =A2
 ~w3
-~w4
+}
+
+q3чапвр:
+{
+=fgdfgfcorrect
+~frfrf
+~ccc
+~sfgsgg
+}
+
+Кто такой Гоша?:
+{
+~Африкансий тигр
+=Женин сыночек
+~Модель трамвая
+~Карликовый пингвин
 }
 
